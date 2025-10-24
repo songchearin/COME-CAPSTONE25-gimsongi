@@ -1,5 +1,6 @@
 # 수집된 데이터 전처리 코드
 
+
 import pandas as pd
 import numpy as np
 import os
@@ -103,4 +104,5 @@ if __name__ == "__main__":
         csv_folder="data",
         save_dir="processed_lstm"
     )
+
 
