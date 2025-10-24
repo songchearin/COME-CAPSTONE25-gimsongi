@@ -1,5 +1,6 @@
 # 손 인식 학습을 위한 데이터 수집 코드
 
+
 import cv2
 import mediapipe as mp
 import csv
@@ -126,4 +127,5 @@ if __name__ == "__main__":
     collect_hand_landmark_samples(
         label=f"{label}",
         save_path=f"data/{label}_sequences.csv"
+
     )
